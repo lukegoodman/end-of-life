@@ -573,7 +573,7 @@
 
 .au-footer.au-footer--alt { background-color: #ebebeb; }
 
-.au-footer.au-footer--dark { color: #ffffff; border-color: #8c9db9; background-color: #002664; }
+.au-footer.au-footer--dark { color: #ffffff; border-color: #95b7bf; background-color: #135E70; }
 
 .au-footer.au-footer--dark.au-footer--alt { background-color: #0d414d; }
 
@@ -890,7 +890,7 @@
 
 .au-header.au-header--alt { background-color: whitesmoke; }
 
-.au-header.au-header--dark { color: #ffffff; background-color: #002664; }
+.au-header.au-header--dark { color: #ffffff; background-color: #135E70; }
 
 .au-header.au-header--alt.au-header--dark { color: #ffffff; background-color: #0d414d; }
 
@@ -1066,7 +1066,7 @@ a.au-header__brand:hover .au-header__text { text-decoration: underline; text-dec
 
 .au-main-nav.au-main-nav--alt .active a:hover { border-color: #e0e0e0; }
 
-.au-main-nav.au-main-nav--dark { background-color: #002664; border-color: #8c9db9; }
+.au-main-nav.au-main-nav--dark { background-color: #135E70; border-color: #61daff; }
 
 .au-main-nav.au-main-nav--dark a, .au-main-nav.au-main-nav--dark .au-main-nav__toggle { color: #61daff; }
 
@@ -1118,7 +1118,7 @@ a.au-header__brand:hover .au-header__text { text-decoration: underline; text-dec
 
 .au-main-nav.au-main-nav--alt .au-main-nav__menu { background-color: #ebebeb; }
 
-.au-main-nav.au-main-nav--dark .au-main-nav__menu { background-color: #002664; }
+.au-main-nav.au-main-nav--dark .au-main-nav__menu { background-color: #135E70; }
 
 .au-main-nav.au-main-nav--alt.au-main-nav--dark .au-main-nav__menu { background-color: #0d414d; }
 
@@ -1540,5 +1540,7 @@ form label + input, form label + textarea { margin-top: 8px; margin-top: 0.5rem;
 .empty-required.au-control-input__input:invalid + .au-control-input__text { background: transparent; }
 
 .empty-required.au-control-input__input:invalid + .au-control-input__text:after { border-color: transparent; }
+
+.au-body a { text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
