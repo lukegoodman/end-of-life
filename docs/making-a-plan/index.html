@@ -89,10 +89,8 @@
 								</button>
 								<ul class="au-link-list">
 									<li><a href="../">Home</a></li>
-									<li><a href="../basic">Basic page</a></li>
-									<li class="active"><a href="#">Form page</a></li>
-									<li><a href="#">Simple terms</a></li>
-									<li><a href="#">Distinct from eachother</a></li>
+									<li><a href="../basic">Find out</a></li>
+									<li class="active"><a href="#">Make a plan</a></li>
 								</ul>
 								<div class="au-main-nav__focus-trap-bottom"></div>
 							</div>
@@ -111,68 +109,61 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-7">
-						<h1>Form example (h1)</h1>
-						<p>The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.</p>
-						<p>These headings introduce, respectively, sections and subsections within your body copy. As you create these headings, follow the same guidelines that you use when writing section headings: Be succinct, descriptive, and precise.</p>
-						<form>
-							<div class="form-item">
-								<label for="email" class="label--block">Email <span class="form-required">(required)</span></label>
-								<input class="au-text-input empty-required" name="email" id="email" type="email" required>
-							</div>
+						<h1>Making an plan</h1>
+						<p>Nobody really wants to think about the end of their life, but knowing what to include in your plans is a good place to start. You can find out more information here about the sorts of things that you need to think about, and can also add them to your plan.</p>
+						<ul class="au-accordion-group">
+						  <li>
+						    <section class="au-accordion">
+						      <button href="#accordion-group-1" class="au-accordion__title js-au-accordion au-accordion--closed" aria-controls="accordion-group-1" aria-expanded="false" aria-selected="false" onclick="return AU.accordion.Toggle( this )">Understanding end of life</button>
 
-							<div class="form-item">
-								<label for="fullname" class="label--block">Full name</label>
-								<input class="au-text-input" name="fullname" id="fullname" type="text">
-							</div>
+						      <div class="au-accordion__body au-accordion--closed" id="accordion-group-1">
+						        <div class="au-accordion__body-wrapper">
+						          <p>We know our lives will end sometime and most of us put off thinking about it until triggered by a life event such as:</p>
+											<ul>
+												<li>a death of a loved one</li>
+												<li>a sudden medical issue</li>
+												<li>retirement</li>
+												<li>overseas travel</li>
+												<li>the birth of a baby.</li>
+											</ul>
+											<p>These events cause us to think about the uncertainty of life and the need to plan for the future and safeguard those we love.</p>
+											<p>There are lots of things we need to think about and it's a good idea to have conversations with our family and whānau. Letting them know what we want in terms of medical care in the event of illness, or what happens when we're gone, will ease the burden left on them.</p>
+										</div>
+						      </div>
+						    </section>
+						  </li>
 
-							<!--RADIO OPTIONS-->
-							<div class="form-item">
-								 Preferred contact method <span class="form-required">(required)</span>
-								<label class="au-control-input au-control-input--block">
-									<input class="au-control-input__input empty-required" type="radio" name="contact-method" value="do-not-contact" required>
-									<span class="au-control-input__text">Don't contact me</span>
-								</label>
+						  <li>
+						    <section class="au-accordion">
+						      <button href="#accordion-group-2" class="au-accordion__title js-au-accordion au-accordion--closed" aria-controls="accordion-group-2" aria-expanded="false" aria-selected="false" onclick="return AU.accordion.Toggle( this )">Facing terminal illness</button>
 
-								<label class="au-control-input au-control-input--block">
-									<input class="au-control-input__input empty-required" type="radio" name="contact-method" value="raven" required>
-									<span class="au-control-input__text">Raven</span>
-								</label>
-							</div>
+						      <div class="au-accordion__body au-accordion--closed" id="accordion-group-2">
+						        <div class="au-accordion__body-wrapper">
+						          Here <a href="#url">is</a> some accordion content
+						        </div>
+						      </div>
+						    </section>
+						  </li>
 
-							<!--CHECK OPTIONS-->
-							<div class="form-item">
-								How did you hear about us?
+							<li>
+								<section class="au-accordion">
+									<button href="#accordion-group-3" class="au-accordion__title js-au-accordion au-accordion--closed" aria-controls="accordion-group-3" aria-expanded="false" aria-selected="false" onclick="return AU.accordion.Toggle( this )">Ways to help you cope</button>
 
-								<label class="au-control-input au-control-input--block">
-									<input class="au-control-input__input" type="checkbox" name="referral" value="google">
-									<span class="au-control-input__text">Google</span>
-								</label>
+									<div class="au-accordion__body au-accordion--closed" id="accordion-group-2">
+										<div class="au-accordion__body-wrapper">
+											Here <a href="#url">is</a> some accordion content
+										</div>
+									</div>
+								</section>
+							</li>
+						</ul>
+						<hr />
+						<h2>Starting your plan</h2>
+						<p>Creating a plan can help you to have conversations with family and whānau about what you want to happen after you die.</p>
+						<p>You can create your plan in whatever way you feel most comfortable. You could have conversations, write it down, or do it online in the Te Hokinga ā Wairua End of Life Service, using 'My plan'.</p>
+						<p>'My plan' allows you to create and save your end of life preferences and other important information. To create your plan you can add and edit planning tasks by clicking the 'add to my plan' button on different topics.</p>
 
-								<label class="au-control-input au-control-input--block">
-									<input class="au-control-input__input" type="checkbox" name="referral" value="website">
-									<span class="au-control-input__text">Website</span>
-								</label>
-							</div>
-
-							<div class="form-item">
-								<label for="help-comment"> How can we help you? <span class="form-required">(required)</span></label>
-								<textarea class="au-text-input au-text-input--block empty-required" name="help-comment" id="help-comment" required></textarea>
-							</div>
-
-							<!--CHECK OPTIONS-->
-							<div class="form-item">
-								Are you sure about this? <span class="form-required">(required)</span>
-								<label class="au-control-input au-control-input--block">
-									<input class="au-control-input__input empty-required" type="checkbox" name="agreement" value="agreement" required>
-									<span class="au-control-input__text">I agree</span>
-								</label>
-							</div>
-
-							<!--FORM SUBMIT BUTTON-->
-							<div class="form-item">
-								<button class="au-btn">Submit</button>
-							</div>
-						</form>
+Your 'My plan' is not a binding legal document, like a will - it's simply a record of your preferences to guide your family, whānau and friends.</p>
 					</div>
 				</div>
 			</div>

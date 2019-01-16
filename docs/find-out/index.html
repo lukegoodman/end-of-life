@@ -16,14 +16,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
-	<title>Australian Government Design System | Home</title>
+	<title>Australian Government Design System | Form</title>
 
 	<script type="text/javascript">
 		var $html = document.documentElement; if ($html.classList) $html.classList.remove("no-js"), $html.classList.add("js"); else { var className = "no-js"; $html.className = $html.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " "), $html.className += " js" }
 	</script>
 
-	<link rel="icon" href="assets/favicons/favicon.ico">
-	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<link rel="icon" href="../assets/favicons/favicon.ico">
+	<link type="text/css" rel="stylesheet" href="../css/main.css">
 
 	<!-- These are shivs to help modern html work in older internet explorer browsers -->
 	<!--[if lt IE 9]>
@@ -55,9 +55,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<a class="au-header__brand" href="#">
-						<img class="au-header__brand-image" alt="Insert alternate text here" src="assets/img/header-logo-agov.png">
+						<img class="au-header__brand-image" alt="Insert alternate text here" src="../assets/img/header-logo-agov.png">
 						<div class="au-header__text">
-						<h2 class="au-header__heading">End of life Service</h2>
+						<h2 class="au-header__heading">End of Life Service</h2>
 						<div class="au-header__subline">Information, advice and next steps</div>
 						</div>
 					</a>
@@ -67,7 +67,7 @@
 	</header>
 
 	<!-- MAIN NAVIGATION -->
-	<nav class="au-main-nav au-main-nav--dark" id="#mainmenu" aria-label="main navigation">
+	<nav class="au-main-nav au-main-nav--dark" id="mainmenu">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -88,9 +88,9 @@
 									Close
 								</button>
 								<ul class="au-link-list">
-									<li class="active"><a href="#">Home</a></li>
-									<li><a href="basic">Find out</a></li>
-									<li><a href="making-a-plan">Make a plan</a></li>
+									<li><a href="../">Home</a></li>
+									<li class="active"><a href="#">Find out</a></li>
+									<li><a href="../location">Make a plan</a></li>
 								</ul>
 								<div class="au-main-nav__focus-trap-bottom"></div>
 							</div>
@@ -108,69 +108,68 @@
 		<section class="au-body">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12">
-						<h2>NSW Government End of life service</h2>
-						<p>Things can be eased for loved ones when they understand more about what’s happening following a death, and what someone’s wishes are.</p>
+					<div class="col-md-7">
+						<h1>First days</h1>
+						<hr />
+						<h2>Let people know</h2>
+						<p>When someone dies it's important to let the right people know as quickly as you can. The authorities you'll need to contact will depend on how the person died, as each situation will be handled differently.</p>
+						<p>You may also need to tell family, whānau, friends and the person's employer if they were working.</p>
+						<section class="au-accordion">
+						  <button href="#accordion-default" class="au-accordion__title js-au-accordion au-accordion--closed" aria-controls="accordion-default" aria-expanded="false" aria-selected="false" onclick="return AU.accordion.Toggle( this )">
+						    When someone dies in a hospital, hospice or rest home
+						  </button>
+
+						  <div class="au-accordion__body au-accordion--closed" id="accordion-default">
+						    <div class="au-accordion__body-wrapper">
+									<p>When someone dies in a hospital, hospice or rest home you'll need to:</p>
+									<ul>
+										<li>alert medical or rest home staff on duty.</li>
+									</ul>
+									<p>The medical or rest home staff will contact the doctor who'll check to confirm the cause of death. If the cause of death is known and from natural causes they'll be able to complete a Medical Certificate of Cause of Death. You must have this certificate before you or a funeral director can go ahead with a burial or cremation.</p>
+									<p>Usually you'll be able to stay with the body until you feel comfortable to call someone - for example a funeral director of your choice.</p>
+									&nbsp;
+									<a href="#">When someone dies in care</a>
+
+									<p>If the cause of death is not obvious, or suspected to be from unnatural causes, further investigation will be required. In this case the doctor will need to report the death to a coroner.</p>
+									&nbsp;
+									<a href="#">What happens when a death is referred to a coroner</a>
+
+									<p>You'll probably need to collect the person's personal belongings. If there are certain items you want to stay with your loved one, such as a wedding ring, you'll need to make sure you let the staff know.</p>
+						    </div>
+						  </div>
+						</section>
+						<hr />
+						<h2>Choose a funeral director</h2>
+						<p>Choosing a funeral director is an important decision to make after someone dies. You don't have to use a funeral director if you don't want - you can organise everything yourself.</p>
+						<p>If you decide to use a funeral director this should be one of the first things you organise.</p>
+						<section class="au-accordion">
+							<button href="#accordion-default-4" class="au-accordion__title js-au-accordion au-accordion--closed" aria-controls="accordion-default-4" aria-expanded="false" aria-selected="false" onclick="return AU.accordion.Toggle( this )">
+								What does a funeral director do
+							</button>
+
+							<div class="au-accordion__body au-accordion--closed" id="accordion-default-4">
+								<div class="au-accordion__body-wrapper">
+									<p>A funeral director will help you to organise a funeral service and deal with legal requirements.</p>
+
+									<p>They can take care of everything, or you can choose to do some things yourself.</p>
+
+									<p>Most funeral directors' services include:</p>
+									<ul>
+										<li>working with authorities and registering the death</li>
+										<li>transporting the person's body</li>
+										<li>meeting the family and whānau to understand their wishes</li>
+										<li>embalming, care and presentation of the person's body</li>
+										<li>organising the burial or cremation</li>
+										<li>recommending or arranging a celebrant</li>
+										<li>arranging the funeral service and any function afterwards.</li>
+									</ul>
+								</div>
+							</div>
+						</section>
 					</div>
 				</div>
 			</div>
 		</section>
-		<div class="au-body au-body--alt">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12 col-sm-5">
-						<h2>I want to plan and share my wishes and information</h2>
-						<p>Find information to help you create and share a personalised plan of what you want to happen when you die.</p>
-						<div class="btn-cta-group">
-							<a class="au-btn" href="making-a-plan">Create a plan</a>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-1"><span>&nbsp;</span></div>
-					<div class="col-xs-12 col-sm-5">
-						<h2>Someone’s died and I need information</h2>
-						<p>Find information about what to do, and services that might be available to you, following the death of a loved one.</p>
-						<div class="btn-cta-group">
-							<a class="au-btn" href="basic">Find out</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- <section class="highlighted-section au-body au-body--dark au-body--alt">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-4">
-							<img class="au-responsive-media-img banner__image" src="assets/img/100x100.jpg" alt="Placeholder image 100x100">
-						<h3>Small highlight</h3>
-						<p>A small explanation of the featured item this may include a link or a call to action.</p>
-					</div>
-					<div class="col-sm-4">
-						<img class="au-responsive-media-img banner__image" src="assets/img/100x100.jpg" alt="Placeholder image 100x100">
-						<h3>Small highlight</h3>
-						<p>A small explanation of the featured item this may include a link or a call to action.</p>
-					</div>
-					<div class="col-sm-4">
-						<img class="au-responsive-media-img banner__image" src="assets/img/100x100.jpg" alt="Placeholder image 100x100">
-						<h3>Small highlight</h3>
-						<p>A small explanation of the featured item this may include a link or a call to action.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="au-body">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>Sub content</h2>
-						<p>Content that is important to have on the home page but not so important that it has to be visible at the top of the page. This could include contact information, more detailed explanation of the functionality of a product or service.</p>
-						<div class="btn-cta-group">
-							<a class="au-btn" href="#">Primary call to action</a>
-							<a class="au-btn au-btn--secondary" href="#">Secondary call to action</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
 		<!--END CONTENT-->
 	</main>
 	<!-- END MAIN BODY -->
@@ -189,7 +188,7 @@
 				<section class="col-sm-12">
 					<div class="au-footer__end">
 						<p>
-							© NSW Government. Licensed under the <a href="https://github.com/govau/uikit-starter/blob/master/LICENSE" rel="external">MIT license</a>
+							© Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the <a href="https://github.com/govau/uikit-starter/blob/master/LICENSE" rel="external">MIT license</a>
 						</p>
 					</div>
 				</section>
@@ -197,7 +196,59 @@
 	</footer>
 
 	<!-- The javascript from pancake to open and close side nav on desktop -->
-	<script type="text/javascript" src="js/script.min.js"></script>
+	<script type="text/javascript" src="../js/script.min.js"></script>
+	<script>
+		// Change EventListener to attachEvent for legacy browsers
+		function AddEvent( elements, event, onEvent ) {
+			if( elements ) {
+				// Create an array of elements if a singular or array of elements is passed in
+				if( elements.length === undefined ) {
+					elements = [ elements ];
+				}
+
+				// For each element add the correct event listener
+				for( var i = 0; i < elements.length; i++ ) {
+					if( typeof Element.prototype.addEventListener === "undefined" ) {
+
+						// Make sure that we pass this
+						( function( element, event ) {
+							element.attachEvent( "on" + event, function( actualEvent ) {
+								onEvent( actualEvent, element );
+							});
+						})( elements[ i ], event );
+					}
+					else {
+						( function( element, event ) {
+							element.addEventListener( event, function( actualEvent ) {
+								onEvent( actualEvent, element );
+							});
+						})( elements[ i ], event );
+					}
+				}
+			}
+		}
+
+		// Required form fields appear as errors on page load
+		//
+		// If you want a required group of checkboxes you will need to modify this script:
+		// https://stackoverflow.com/questions/6218494/using-the-html5-required-attribute-for-a-group-of-checkboxes
+		function ResetEmptyRequired( tagNames ){
+			for( var i = 0; i < tagNames.length; i++ ){
+				var elements = document.getElementsByTagName( tagNames[ i ] );
+
+				for( var j = 0; j < elements.length; j++ ){
+					if( elements[ j ].required ){
+
+						AddEvent( elements[ j ], "blur", function( event, $this )	{
+							$this.className = $this.className.replace( " empty-required", "" );
+						});
+					}
+				}
+			}
+		}
+
+		ResetEmptyRequired( [ 'input', 'textarea' ] );
+	</script>
 </body>
 
 </html>
